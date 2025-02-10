@@ -26,6 +26,16 @@
             "name": "com.solidalloy.generic-unity-objects",
             "expression": "",
             "define": "GENERIC_UNITY_OBJECTS"
+        },
+        {
+            "name": "Unity",
+            "expression": "6000",
+            "define": "Unity_6000_OR_NEWER"
+        },
+        {
+            "name": "Unity",
+            "expression": "2021.2",
+            "define": "UNITY_2021_2_OR_NEWER"
         }
     ],
     "noEngineReferences": false

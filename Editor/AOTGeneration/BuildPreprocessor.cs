@@ -100,7 +100,7 @@
             // if IL2CPP setting and OptimizeSpeed, emit generic types usage.
 #if UNITY_2021_2_OR_NEWER
             var codeGeneration =
-    #if UNITY_2022_OR_NEWER
+    #if UNITY_2022_OR_NEWER || UNITY_6000_OR_NEWER
                 PlayerSettings.GetIl2CppCodeGeneration(NamedBuildTarget.FromBuildTargetGroup(EditorUserBuildSettings.selectedBuildTargetGroup));
     #else
                 EditorUserBuildSettings.il2CppCodeGeneration;
